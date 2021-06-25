@@ -451,7 +451,12 @@ transition: background-color 0.5s ease-in-out;
 /*--------------------*/
 /* FOOTER */
 /*--------------------*/
-
+.fa{
+    color: black;
+    padding-left: 20%;
+    font-size: 50px;
+   
+}
 
 #footer{
   display: inline;  
@@ -459,14 +464,7 @@ transition: background-color 0.5s ease-in-out;
   width: 100%;  
 }
 
-.socials {
 
-    text-align: center;
-    
-}
-.socials .li{
-    
-}
 
 .footer-top{
   display: inline;
@@ -493,11 +491,6 @@ transition: background-color 0.5s ease-in-out;
 }
 
 
-.contact{
-  display: inline;
-  margin-top: 50px;
-  width: 100%;
-}
 
 
 .contact-form {
