@@ -41,6 +41,7 @@ h6{
 
 
 .custom-nav li a{
+    color: black;
   font-family: 'Source Code Pro', monospace;
   font-size: 14px;
   font-weight: 500;
@@ -113,8 +114,8 @@ nav .brand-logo img {
 
 #home {
   background-image: url("img/home-img1.jpg");
-  background-position: 100% 100%;
-  background-size: 100% 100%;
+  background-position: 100%;
+  background-size: cover;
   display: inline;
   float: left;
   height: 420px;
@@ -455,7 +456,7 @@ transition: background-color 0.5s ease-in-out;
     color: black;
     padding-left: 20%;
     font-size: 50px;
-   
+    padding-bottom: 2%;
 }
 
 #footer{
@@ -477,7 +478,10 @@ transition: background-color 0.5s ease-in-out;
 .footer-top-inner{
   display: inline;  
   float: left;  
-  width: 100%;  
+  width: 100%;
+}
+.footer-top-inner p{
+    color: black;
 }
 
 
@@ -486,73 +490,9 @@ transition: background-color 0.5s ease-in-out;
 }
 
 
-.footer-top-inner>p{
-  color: #fff;
-}
 
 
 
-
-.contact-form {
-  background: #fff none repeat scroll 0 0;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  display: inline;
-  border-radius: 4px;
-  padding: 20px;
-  float: left;
-  width: 100%;
-  margin: auto;
-}
-
-
-.contact-form .input-label {
- /* color: #bbbbbb;*/
-  font-size: 15px;
-  left: 0;
-}
-
-
-input[type="text"],
-input[type="password"],
-input[type="email"],
-input[type="url"],
-input[type="time"],
-input[type="date"],
-input[type="datetime-local"],
-input[type="tel"], input[type="number"],
-input[type="search"],
-textarea.materialize-textarea {
-  border-color: #ccc;
-}
-
-
-.textarea-input textarea{
-  min-height: 50px;
-}
-
-
-.submit-btn:hover,
-.submit-btn:focus{
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  color: #fff;
-  padding-left: 10px;
-}
-
-
-.contact-map{
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  height: 500px;
-  display: inline;
-  float: left;
-  width: 100%;
-}
-
-
-.contact-map iframe{
-  border-radius: 4px;
-  margin-bottom: -5px;
-}
 
 
 .footer-bottom{
